@@ -16,10 +16,10 @@ public class WoocommerClient {
     }
     
     public static func justDoSomething(input: String, completion: @escaping (_ result: String) -> Void) {
-        Just.get("http://google.com") {
+        Just.get(input) {
             r in
             if r.ok {
-                completion((r.content?.base64EncodedString())!)
+                completion(r.text!)
             }
             else {
                 completion("failed")
