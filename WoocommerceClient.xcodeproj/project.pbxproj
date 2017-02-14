@@ -12,6 +12,7 @@
 		CB7A4BF41E52CB2000251741 /* WoocommerceClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A4BEA1E52CB2000251741 /* WoocommerceClient.framework */; };
 		CB7A4BF91E52CB2000251741 /* WoocommerceClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A4BF81E52CB2000251741 /* WoocommerceClientTests.swift */; };
 		CB7A4BFB1E52CB2000251741 /* WoocommerceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7A4BED1E52CB2000251741 /* WoocommerceClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB7A4C061E52D53B00251741 /* WoocommerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A4C051E52D53B00251741 /* WoocommerClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		CB7A4BF31E52CB2000251741 /* WoocommerceClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoocommerceClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7A4BF81E52CB2000251741 /* WoocommerceClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoocommerceClientTests.swift; sourceTree = "<group>"; };
 		CB7A4BFA1E52CB2000251741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7A4C051E52D53B00251741 /* WoocommerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoocommerClient.swift; sourceTree = "<group>"; };
 		ECF01104F6B7756583BD1C64 /* Pods-WoocommerceClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoocommerceClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoocommerceClient/Pods-WoocommerceClient.release.xcconfig"; sourceTree = "<group>"; };
 		FABDBB537A6EE8814C5B4C16 /* Pods_WoocommerceClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoocommerceClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 		CB7A4BEC1E52CB2000251741 /* WoocommerceClient */ = {
 			isa = PBXGroup;
 			children = (
+				CB7A4C041E52D53B00251741 /* main */,
 				CB7A4BED1E52CB2000251741 /* WoocommerceClient.h */,
 				CB7A4BEE1E52CB2000251741 /* Info.plist */,
 			);
@@ -116,6 +119,14 @@
 				CB7A4BFA1E52CB2000251741 /* Info.plist */,
 			);
 			path = WoocommerceClientTests;
+			sourceTree = "<group>";
+		};
+		CB7A4C041E52D53B00251741 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CB7A4C051E52D53B00251741 /* WoocommerClient.swift */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7A4C061E52D53B00251741 /* WoocommerClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A28972BCB03E1F8D24D6B837 /* Pods-WoocommerceClientTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WoocommerceClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vigaas.WoocommerceClientTests;
@@ -486,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54A7C85DE2CE23AF7A5793C2 /* Pods-WoocommerceClientTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WoocommerceClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vigaas.WoocommerceClientTests;
@@ -513,6 +527,7 @@
 				CB7A4C001E52CB2000251741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7A4C011E52CB2000251741 /* Build configuration list for PBXNativeTarget "WoocommerceClientTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				CB7A4C031E52CB2000251741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
