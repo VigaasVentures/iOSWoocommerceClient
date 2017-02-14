@@ -9,17 +9,17 @@
 import UIKit
 import Just
 
-class WoocommerClient {
+public class WoocommerClient {
 
-    static func doSomething(name:String) -> String {
+    public static func doSomething(name:String) -> String {
         return "Name is \(name)"
     }
     
-    static func justDoSomething(input: String, completion: @escaping (_ result: String) -> Void) {
+    public static func justDoSomething(input: String, completion: @escaping (_ result: String) -> Void) {
         Just.get("http://google.com") {
             r in
             if r.ok {
-                completion(r.text!)
+                completion((r.content?.base64EncodedString())!)
             }
             else {
                 completion("failed")

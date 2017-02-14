@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WoocommerceClient"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Swift based WooCommerce Client"
 
   # This description is used to generate tags and improve search results.
