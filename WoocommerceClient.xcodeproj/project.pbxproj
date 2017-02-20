@@ -19,6 +19,20 @@
 		CB7A4BFB1E52CB2000251741 /* WoocommerceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7A4BED1E52CB2000251741 /* WoocommerceClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB7A4C061E52D53B00251741 /* WoocommerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A4C051E52D53B00251741 /* WoocommerClient.swift */; };
 		CB7A4C341E52F6DE00251741 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A4C331E52F6DE00251741 /* Attribute.swift */; };
+		CBCB56301E5AC48600DC5E96 /* CouponLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB562F1E5AC48600DC5E96 /* CouponLine.swift */; };
+		CBCB56321E5AC50100DC5E96 /* DefaultAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56311E5AC50100DC5E96 /* DefaultAttribute.swift */; };
+		CBCB56341E5AC58900DC5E96 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56331E5AC58900DC5E96 /* Dimension.swift */; };
+		CBCB56361E5AC60000DC5E96 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56351E5AC60000DC5E96 /* Error.swift */; };
+		CBCB56381E5AC64C00DC5E96 /* FeeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56371E5AC64C00DC5E96 /* FeeLine.swift */; };
+		CBCB563A1E5AC6A900DC5E96 /* FeeLineTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56391E5AC6A900DC5E96 /* FeeLineTax.swift */; };
+		CBCB563C1E5ACA5A00DC5E96 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB563B1E5ACA5A00DC5E96 /* Download.swift */; };
+		CBCB563E1E5ACAA800DC5E96 /* LastOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB563D1E5ACAA800DC5E96 /* LastOrder.swift */; };
+		CBCB56401E5ACB0F00DC5E96 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB563F1E5ACB0F00DC5E96 /* LineItem.swift */; };
+		CBCB56421E5ACBC400DC5E96 /* TaxesMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56411E5ACBC400DC5E96 /* TaxesMeta.swift */; };
+		CBCB56441E5ACC2700DC5E96 /* ProductMetaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56431E5ACC2700DC5E96 /* ProductMetaItem.swift */; };
+		CBCB56461E5ACF3C00DC5E96 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56451E5ACF3C00DC5E96 /* Order.swift */; };
+		CBCB56481E5ADC0E00DC5E96 /* TaxLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56471E5ADC0E00DC5E96 /* TaxLine.swift */; };
+		CBCB564A1E5ADCEF00DC5E96 /* ShippingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB56491E5ADCEF00DC5E96 /* ShippingLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		CB7A4BFA1E52CB2000251741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB7A4C051E52D53B00251741 /* WoocommerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoocommerClient.swift; sourceTree = "<group>"; };
 		CB7A4C331E52F6DE00251741 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = models/Attribute.swift; sourceTree = "<group>"; };
+		CBCB562F1E5AC48600DC5E96 /* CouponLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CouponLine.swift; path = models/CouponLine.swift; sourceTree = "<group>"; };
+		CBCB56311E5AC50100DC5E96 /* DefaultAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultAttribute.swift; path = models/DefaultAttribute.swift; sourceTree = "<group>"; };
+		CBCB56331E5AC58900DC5E96 /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = models/Dimension.swift; sourceTree = "<group>"; };
+		CBCB56351E5AC60000DC5E96 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = models/Error.swift; sourceTree = "<group>"; };
+		CBCB56371E5AC64C00DC5E96 /* FeeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeeLine.swift; path = models/FeeLine.swift; sourceTree = "<group>"; };
+		CBCB56391E5AC6A900DC5E96 /* FeeLineTax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeeLineTax.swift; path = models/FeeLineTax.swift; sourceTree = "<group>"; };
+		CBCB563B1E5ACA5A00DC5E96 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = models/Download.swift; sourceTree = "<group>"; };
+		CBCB563D1E5ACAA800DC5E96 /* LastOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LastOrder.swift; path = models/LastOrder.swift; sourceTree = "<group>"; };
+		CBCB563F1E5ACB0F00DC5E96 /* LineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineItem.swift; path = models/LineItem.swift; sourceTree = "<group>"; };
+		CBCB56411E5ACBC400DC5E96 /* TaxesMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaxesMeta.swift; path = models/TaxesMeta.swift; sourceTree = "<group>"; };
+		CBCB56431E5ACC2700DC5E96 /* ProductMetaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductMetaItem.swift; path = models/ProductMetaItem.swift; sourceTree = "<group>"; };
+		CBCB56451E5ACF3C00DC5E96 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = models/Order.swift; sourceTree = "<group>"; };
+		CBCB56471E5ADC0E00DC5E96 /* TaxLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaxLine.swift; path = models/TaxLine.swift; sourceTree = "<group>"; };
+		CBCB56491E5ADCEF00DC5E96 /* ShippingLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShippingLine.swift; path = models/ShippingLine.swift; sourceTree = "<group>"; };
 		ECF01104F6B7756583BD1C64 /* Pods-WoocommerceClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoocommerceClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoocommerceClient/Pods-WoocommerceClient.release.xcconfig"; sourceTree = "<group>"; };
 		FABDBB537A6EE8814C5B4C16 /* Pods_WoocommerceClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoocommerceClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,9 +127,23 @@
 			children = (
 				CB7A4C331E52F6DE00251741 /* Attribute.swift */,
 				CB3038F51E54171400560310 /* BillingAddress.swift */,
-				CB3038F71E54188000560310 /* CartLine.swift */,
 				CB3038F91E541AF600560310 /* Cart.swift */,
+				CB3038F71E54188000560310 /* CartLine.swift */,
 				CB3038FB1E5426A800560310 /* CategoryImage.swift */,
+				CBCB562F1E5AC48600DC5E96 /* CouponLine.swift */,
+				CBCB56311E5AC50100DC5E96 /* DefaultAttribute.swift */,
+				CBCB56331E5AC58900DC5E96 /* Dimension.swift */,
+				CBCB563B1E5ACA5A00DC5E96 /* Download.swift */,
+				CBCB56351E5AC60000DC5E96 /* Error.swift */,
+				CBCB56371E5AC64C00DC5E96 /* FeeLine.swift */,
+				CBCB56391E5AC6A900DC5E96 /* FeeLineTax.swift */,
+				CBCB563D1E5ACAA800DC5E96 /* LastOrder.swift */,
+				CBCB563F1E5ACB0F00DC5E96 /* LineItem.swift */,
+				CBCB56431E5ACC2700DC5E96 /* ProductMetaItem.swift */,
+				CBCB56411E5ACBC400DC5E96 /* TaxesMeta.swift */,
+				CBCB56451E5ACF3C00DC5E96 /* Order.swift */,
+				CBCB56471E5ADC0E00DC5E96 /* TaxLine.swift */,
+				CBCB56491E5ADCEF00DC5E96 /* ShippingLine.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -348,13 +390,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCB56401E5ACB0F00DC5E96 /* LineItem.swift in Sources */,
+				CBCB56481E5ADC0E00DC5E96 /* TaxLine.swift in Sources */,
+				CBCB56381E5AC64C00DC5E96 /* FeeLine.swift in Sources */,
 				CB7A4C341E52F6DE00251741 /* Attribute.swift in Sources */,
+				CBCB56461E5ACF3C00DC5E96 /* Order.swift in Sources */,
+				CBCB563E1E5ACAA800DC5E96 /* LastOrder.swift in Sources */,
+				CBCB56321E5AC50100DC5E96 /* DefaultAttribute.swift in Sources */,
 				CB7A4C061E52D53B00251741 /* WoocommerClient.swift in Sources */,
+				CBCB56361E5AC60000DC5E96 /* Error.swift in Sources */,
+				CBCB563C1E5ACA5A00DC5E96 /* Download.swift in Sources */,
 				CB3038FE1E5429F200560310 /* RFC3339DateTransform.swift in Sources */,
+				CBCB563A1E5AC6A900DC5E96 /* FeeLineTax.swift in Sources */,
 				CB3038FA1E541AF600560310 /* Cart.swift in Sources */,
+				CBCB56441E5ACC2700DC5E96 /* ProductMetaItem.swift in Sources */,
 				CB3038F61E54171400560310 /* BillingAddress.swift in Sources */,
 				CB3038F81E54188000560310 /* CartLine.swift in Sources */,
+				CBCB56421E5ACBC400DC5E96 /* TaxesMeta.swift in Sources */,
 				CB3038FC1E5426A800560310 /* CategoryImage.swift in Sources */,
+				CBCB56341E5AC58900DC5E96 /* Dimension.swift in Sources */,
+				CBCB564A1E5ADCEF00DC5E96 /* ShippingLine.swift in Sources */,
+				CBCB56301E5AC48600DC5E96 /* CouponLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
